@@ -61,7 +61,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: vkfedosov/infra_actions:v20.12.2022
+          tags: vkfedosov/infra_actions:latest
 
   deploy:
     runs-on: ubuntu-latest
